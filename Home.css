@@ -1,0 +1,430 @@
+*{
+    /* margin: 0; */
+    padding:0;
+}
+
+/*================= Home page =================*/
+.wrapper{
+        width: 90%;
+        /* height: 90%; */
+        margin: 5%;
+        /* padding: 1%; */
+    /* border: 2px soild violet;*/
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        /* grid-auto-rows: 200px 200px 200px 400px; */
+        /* background:white;* */
+        border:10px solid yellow;
+
+        }
+
+
+.navbar{
+    /* border: solid blue; */
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin:right;
+      }
+
+
+
+.page-one-background { 
+        background-color:orange;
+        mask-repeat: no-repeat; 
+                    }
+
+.nav-home{
+        top: 50%; 
+        margin-left: -30%;
+        height: 120px;
+        position:relative;
+        background-color: gold;
+        }
+
+li{
+        display: inline;
+  }
+
+ a{
+        display:inline-block;
+        padding: 8px;
+        text-align:center;  
+        font-size: 30px;
+        /* float:center; */
+  } 
+
+
+.sentence-under-profile-image{
+        /* border:2px solid orange; */
+        text-indent: 50%;
+        margin-top: -20%;
+        font-size: 30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        -webkit-text-fill-color: midnightblue;
+                            }
+
+.profile-image{
+        background-image:url("kittens.gif");
+        /* border:green; */
+        /* width: 200px; */
+        height:200px;
+        padding:100px;
+        background-repeat: no-repeat;
+        border: solid;
+            }
+
+.text-home{
+        /* border:solid rebeccapurple; */
+        display:block;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style:italic;
+        margin-left:-10%;
+        }
+
+
+
+/* ======== About me page ========*/
+.wrapper-a{
+    /* margin:0 auto; */
+         width: 100%;
+        height: 100%; 
+        /* margin: 5%; */
+        /* padding: 1%; */
+        border:10px solid yellow;    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6px;
+        background: linear-gradient(to Top right, yellow, white);
+
+     background-repeat: no-repeat;
+} 
+
+.navbar-a{
+    /* border: solid orange; */
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin:right;
+
+     }
+
+      .nav-about{
+     text-align: right;
+     /* background-color: aqua; */
+      }
+
+.Welcome{
+    /* border:solid red; */
+    text-align:left;
+   
+    /* margin: 20%;  */
+    /* padding:125px; */
+    width:100%;
+    height: 300px;
+ /* -webkit-text-fill-color:yellow; */
+    grid-column-start:1;
+grid-column-end:2; 
+grid-row-start:3; 
+grid-row-end:4;
+/* font-size:80px; */
+background-image: url("sun.png");
+background-repeat:no-repeat;
+
+}
+
+
+#text1{
+    /* height: 200%; */
+    margin-left: 300px; 
+    margin-right:300px;
+    margin-bottom:10px;
+    /* margin-top: -10px; */
+ /* grid-column-start:2;
+grid-column-end: 3; */
+ grid-row-start:5;
+grid-row-end:6; 
+border: 2px solid orange;
+/* background-image: url("green-leaves-impression.JPEG"); */
+background: linear-gradient(to Bottom left, yellow, white);
+text-align: center;
+/* border-block-start-color: black; */
+}
+
+
+/* #photo1{
+    background-image: url("cpTek.jpg");
+    background-repeat:no-repeat;
+    height:200px;
+    width: 100%;
+ grid-column-start:3;
+grid-column-end: 4;
+grid-row-start:5;
+grid-row-end:6;
+float: right; */
+
+/* 
+}
+#text2{ 
+
+    /* background-image: url("green-leaf.JPEG"); */
+    /* grid-column-start:1;
+   grid-column-end: 2;
+   grid-row-start:7;
+   grid-row-end:8;  */
+   /* border: 2px solid orange; */
+   /* width:100%; */
+   /* background-image: url("green-leaves-impression.JPEG"); */
+   /* background: linear-gradient(to left, yellow, white);
+
+   }
+
+   #photo2{
+    background-image: url("for.jpg");
+    background-repeat: no-repeat;  */
+    /* margin-top:-100px; */
+    /* width: 600px; */
+    /* width:100%;
+    height: 180px;
+ grid-column-start:3;
+grid-column-end: 4;
+grid-row-start:7;
+grid-row-end:8;
+   }
+
+   #text3{
+    grid-column-start:1;
+   grid-column-end: 2;
+  grid-row-start:9;
+   grid-row-end:10;
+float:bottom; */
+/* border: 2px solid orange; */
+/* background-image: url("green-leaves-impression.JPEG"); */
+/* margin-top:30px; */
+/* background: linear-gradient(to right, yellow, white);
+
+   }
+
+#photo3{
+background-image: url("capoeira.jpg");
+background-repeat: no-repeat;
+width:400px;
+height:250px;
+ grid-column-start:3;
+grid-column-end: 4;
+grid-row-start:9;
+grid-row-end:10;
+float:right;
+
+   } */
+
+/*============ Contact Page =========*/
+.wrapper-c{
+    /* height: 400px; */
+        background-image:url("Contacto.jpg");
+        background-repeat: no-repeat;
+        width: 0 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6px;
+        /* grid-auto-rows: 1fr 200px 200px 1fr; */
+        border:10px solid tan;
+           }
+
+#Phrase{
+        width:100%;     
+        height:400px;  
+        /* border:solid red; */
+        -webkit-text-fill-color:goldenrod;
+        grid-column-start:1/4;
+       }
+
+.navbar-c{ 
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:2;
+        background-color: rgb(91, 116, 131);
+
+         }
+
+.nav-contact{ 
+         /* margin-top:-10px; */
+        text-align:center;
+        -webkit-text-color: antiquewhite;
+            }  
+    
+
+.contacts{
+        padding: 40px;
+        border: 5px dotted goldenrod;
+        margin-right:30%;
+        margin-top:80px;
+        grid-column: 3/4;
+        font-size:30px;
+
+        }
+/*==================== Mobile Responsiveness =================*/
+@media(min-width: 0px) and (max-width: 700px){
+/* body{display: none;
+} */
+*{
+    margin: 0;
+    padding:0;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+
+}
+.navbar, .nav-home{
+grid-column: 1/4;
+margin: 0 auto;
+}
+.text-home{
+    grid-column: 1/4;
+    text-align: center;
+}
+.sentence-under-profile-image{
+    grid-column: 1/4;
+margin: 20%;
+
+}
+.profile-image, header{
+    grid-column: 1/4;
+    width: 200px;
+    height:100px;
+    padding:100px;
+}
+
+/* about page */
+
+.wrapper-a{
+grid-template-columns: 1fr 
+}
+
+
+#text1{
+    grid-column-start:1;
+   grid-column-end: 2;
+   grid-row-start:5;
+   grid-row-end:6;
+   /* border: 2px solid orange; */
+   /* background-image: url("green-leaves-impression.JPEG"); */
+   }
+   #photo1{
+       background-image: url("cpTek.jpg");
+       background-repeat:no-repeat;
+       height:200px;
+       width: 100%;
+    grid-column-start:1;
+   grid-column-end: 2;
+   grid-row-start:7;
+   grid-row-end:8;
+   float: right;
+   
+   
+   }
+   #text2{ 
+   
+       /* background-image: url("green-leaf.JPEG"); */
+       grid-column-start:1;
+      grid-column-end: 2;
+      grid-row-start:9;
+      grid-row-end:10;
+      /* border: 2px solid orange; */
+      /* width:100%; */
+      /* background-image: url("green-leaves-impression.JPEG"); */
+      }
+   
+      #photo2{
+       background-image: url("for.jpg");
+       background-repeat: no-repeat; 
+       /* margin-top:-100px; */
+       /* width: 600px; */
+       width:100%;
+       height: 180px;
+    grid-column-start:1;
+   grid-column-end: 2;
+   grid-row-start:11;
+   grid-row-end:12;
+      }
+   
+      #text3{
+       grid-column-start:1;
+      grid-column-end: 2;
+     grid-row-start:13;
+      grid-row-end:14;
+   float:bottom;
+   /* border: 2px solid orange; */
+   /* background-image: url("green-leaves-impression.JPEG"); */
+   /* margin-top:30px; */
+      }
+   
+   #photo3{
+   background-image: url("capoeira.jpg");
+   background-repeat: no-repeat;
+   width:100%;
+   height:250px;
+    grid-column-start:1;
+   grid-column-end: 2;
+   grid-row-start:15;
+   grid-row-end:16;
+   float:right;
+      }
+   
+      .navbar-a{
+        border: solid orange;
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:1;
+        grid-row-end:2;
+        margin:right;
+    
+         }
+    
+          .nav-about{
+         text-align: center;
+         /* background-color: aqua; */
+          }
+
+          /* Contact */
+          #Phrase{
+            width:100%;     
+            height:400px;  
+            /* border:solid red; */
+            -webkit-text-fill-color:goldenrod;
+            grid-column-start:1/4;
+
+           }
+    
+    .navbar-c{ 
+            grid-column-start:1;
+            grid-column-end:4;
+            grid-row-start:2;
+            grid-row-end:2;
+            background-color: rgb(91, 116, 131);
+    
+             }
+    
+    .nav-contact{ 
+            text-align:center;
+            -webkit-text-color: antiquewhite;
+
+                }  
+        
+    
+    .contacts{
+            border: 5px soild goldenrod;
+            margin-left:20%;
+            margin-top:50px;
+            grid-column: 1/4;
+            font-size:30px;
+            }
+
+}
